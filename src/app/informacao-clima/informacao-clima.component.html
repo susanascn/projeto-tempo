@@ -1,0 +1,9 @@
+<h2>Informação do Clima</h2>
+<div *ngIf="clima">
+  <h3>{{ clima.name }}</h3>
+  <p>{{ clima.weather[0].description }}</p>
+  <p>Temperatura: {{ clima.main.temp }}°C</p>
+  <button (click)="verDetalhes()">Detalhes</button>
+</div>
+<p *ngIf="mensagemErro">{{ mensagemErro }}</p>
+

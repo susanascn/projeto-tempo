@@ -1,0 +1,48 @@
+/* Estilo para o container principal */
+div.container {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o título do clima */
+h3 {
+  color: #333;
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Estilo para a descrição do clima */
+p.description {
+  color: #666;
+  margin-bottom: 5px;
+}
+
+/* Estilo para a temperatura */
+p.temperature {
+  color: #444;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Estilo para o botão de detalhes */
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilo para a mensagem de erro */
+p.error-message {
+  color: #ff0000;
+  font-weight: bold;
+}
